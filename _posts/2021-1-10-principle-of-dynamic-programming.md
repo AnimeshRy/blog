@@ -118,7 +118,7 @@ In this case, a lookup table has one row for each number of dice from 1 up to ou
 
 We can start by filling the first row with a single dice, where we know that for sums of 1 - 6, there is exactly one way to do it and for other values like 9 or 0, there are zero ways to do it. 
 
-![abcb](../assets/images/article3/abcb.png "Lookup Table")
+![abcb](blog../assets/images/article3/abcb.png "Lookup Table")
 
 For filling the next row, representing all possible sums with two dice. To calculate each of these, we need to add 6 values from the previous row, and we will repeat this process for the third row by talking 6 values from the second row and so on.
 

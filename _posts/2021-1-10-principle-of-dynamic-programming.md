@@ -71,7 +71,7 @@ It was perfectly fine when working with 2 dice when there are 36 ways to roll. (
 
  In these cases, the problem is pretty easy for all values of M from 1 to 6 there's exactly one way to roll that value.
  
-  ![aa](https://raw.githubusercontent.com/AnimeshRy/blog/gh-pages/assets/images/article3/aa.png)
+  ![aa](https://github.com/AnimeshRy/blog/blob/master/assets/images/article3/aa.png?raw=true)
   
  
 ## Recursive Problem Solving
@@ -90,7 +90,7 @@ Maybe it seems like we're overcomplicating a simple problem and you are right bu
 
 In this case, we generalize and say that for n dice to roll a total of M then the first n minus 1 dice must roll a total of ⬇
 
-![aab](https://raw.githubusercontent.com/AnimeshRy/blog/gh-pages/assets/images/article3/aab.png "General Solution")
+![aab](https://github.com/AnimeshRy/blog/blob/master/assets/images/article3/aab.png?raw=true "General Solution")
 
 Adding up each of those six values will therefore give us the answer we want.
 
@@ -119,7 +119,7 @@ In this case, a lookup table has one row for each number of dice from 1 up to ou
 
 We can start by filling the first row with a single dice, where we know that for sums of 1 - 6, there is exactly one way to do it and for other values like 9 or 0, there are zero ways to do it. 
 
-![abcb](https://raw.githubusercontent.com/AnimeshRy/blog/gh-pages/assets/images/article3/abcb.png "Lookup Table")
+![abcb](https://github.com/AnimeshRy/blog/blob/master/assets/images/article3/abcb.png?raw=true "Lookup Table")
 
 For filling the next row, representing all possible sums with two dice. To calculate each of these, we need to add 6 values from the previous row, and we will repeat this process for the third row by talking 6 values from the second row and so on.
 

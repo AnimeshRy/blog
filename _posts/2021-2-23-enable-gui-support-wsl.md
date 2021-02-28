@@ -1,4 +1,10 @@
-# Enable GUI Support in WSL2
+---
+layout: post
+title: Enable GUI Support in WSL2
+subtitle: Ditch VirtualBox
+categories: Linux
+tags: [microsoft, computer-science, wsl2, linux]
+---
 
 There must be a good reason for anyone to switch to WSL given how much hate the Windows community gets from developers. 
 

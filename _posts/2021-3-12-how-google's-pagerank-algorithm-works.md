@@ -3,7 +3,7 @@ layout: post
 title: How Google's PageRank Algorithm Actually works? 
 subtitle: Simplified
 categories: Web
-tags: [#explained, computer-science, google, seo]
+tags: [explained, computer-science, google, seo]
 ---
 
 When you perform a basic google search, how does google determine in what order to show you your results?

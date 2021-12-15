@@ -3,7 +3,7 @@ layout: post
 title: Running Cron Jobs in Django
 subtitle: Bye Celery!
 categories: Django
-tags: [explained, computer-science, django, python]
+tags: [unix, web-applications, django, python]
 ---
 
 If you are our UNIX or Linux user, you must have heard of cron. It's one of the most useful tools in Unix systems although usually used in sysadmin jobs but still, you might need one too !?

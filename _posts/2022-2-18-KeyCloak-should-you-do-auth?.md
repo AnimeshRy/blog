@@ -2,7 +2,7 @@
 layout: post
 title: Keycloak - Should you do your own authentication?
 subtitle: Simple Guide to Keycloak
-categories: Authentication & Authorization
+categories: Authentication
 tags: [authentication, web-applications, authorization, self-hosted]
 ---
 
